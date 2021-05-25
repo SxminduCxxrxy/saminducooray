@@ -1,0 +1,425 @@
+		body{
+			margin: 0;
+		}
+		img.wall{
+			position: fixed;
+    		width: 40%;
+    		height: 100vh;
+    		filter: grayscale(0.9);
+		}
+		.container{
+			float: right;
+			width: 60%;
+			font-family:'Century Gothic', Helvetica, Arial, sans-serif;
+
+		}
+		.header{
+			background-color: #888;
+    		text-align: center;
+    		padding: 1%;
+		}
+		a.links{
+			text-decoration:none; 
+			font-size: 12px;
+    		color: white;
+		}
+		li{
+			list-style: none;
+			display: inline;
+			padding: 8%;
+		}
+		.sub, .overlay{display: none;}
+		h1{
+			text-align: center;
+    		padding-top: 25%;
+    		font-size: 50px;
+    		letter-spacing: 10px;
+    		opacity: 0.9;
+		}
+		h2{
+			text-align: center;
+    		font-size: 50px;
+    		letter-spacing: 10px;
+    		opacity: 0.9;
+		}
+		.subtitle{
+			text-align: center;
+    		letter-spacing: 10px;
+    		line-height: 1;
+    		padding-bottom: 32%;
+		}
+		.phone{
+			display: none;
+		}
+		hr{
+			width: 60%;
+    		height: 1px;
+    		background-color: #757575;
+    		border: none;
+    		margin-top: 5%;
+		}
+		h3{
+			padding-left: 5%;
+    		font-size: 30px;
+    		opacity: 0.9;
+		}
+		.content{
+			text-align: justify;
+    		padding: 0% 5%;
+    		color: #757575;
+		}
+		a.school{
+			text-decoration: none;
+    		color: #757575;
+    		font-weight: bold;
+		}
+		a.school:hover{
+    		color: #3498DB;
+		}
+		h4{
+			padding-left: 5%;
+    		font-size: 20px;
+    		opacity: 0.9;
+    		margin-bottom: -10px;
+		}
+		table{
+			width: 60%;
+    		text-align: center;
+    		padding: 0% 5%;
+		}
+		th{
+			padding:5%;
+			border-bottom: 1px solid #757575;
+		}
+		td{
+			padding:2%;
+			border-bottom: 1px solid #757575;
+		}
+		.ol{
+			float: right;
+    		font-size: 15px;
+   		 	padding: 25% 0%;
+    		text-align: center
+		}
+		.al{
+			float: right;
+    		font-size: 15px;
+   		 	padding: 11% 0%;
+    		text-align: center
+		}
+		.skill{
+			    background-color: #999;
+    			width: 90%;
+    			margin: 1% 5%;
+		}
+		.word{
+			background-color: #757575;
+    		color: white;
+    		width: 88%;
+    		padding: 1% 5%;
+		}
+		.word:hover{
+			background-color:#3498DB;
+		}
+		.spreadsheet{
+			background-color: #757575;
+    		color: white;
+    		width: 85%;
+    		padding: 1% 5%;
+		}
+		.spreadsheet:hover{
+			background-color:#3498DB;
+		}
+		.excel{
+			background-color: #757575;
+    		color: white;
+    		width: 87%;
+    		padding: 1% 5%;
+		}
+		.excel:hover{
+			background-color:#3498DB;
+		}
+		.photoshop{
+			background-color: #757575;
+    		color: white;
+    		width: 70%;
+    		padding: 1% 5%;
+		}
+		.photoshop:hover{
+			background-color:#3498DB;
+		}
+		.web{
+			background-color: #757575;
+    		color: white;
+    		width: 80%;
+    		padding: 1% 5%;
+		}
+		.web:hover{
+			background-color:#3498DB;
+		}
+		.python{
+			background-color: #757575;
+    		color: white;
+    		width: 45%;
+    		padding: 1% 5%;
+		}
+		.python:hover{
+			background-color:#3498DB;
+		}
+
+		.s_c{
+			padding: 2%;
+    		margin: 0 20%;
+    		text-align: center;
+		}
+		a.fb{
+    		color: #757575;
+    		font-size: 50px;
+    		margin: 0% 10%;
+    		text-decoration:none; 
+		}
+		a.fb:hover{
+			color:#1877f2;
+		}
+		a.insta{
+    		color: #757575;
+    		font-size: 50px;
+    		margin: 0% 10%;
+    		text-decoration:none; 
+		}
+		a.insta:hover{
+			background: linear-gradient( #F58529, #FEDA77, #DD2A7B, #8134AF, #515BD4);
+    		-webkit-text-fill-color: transparent;
+    		-webkit-background-clip: text;
+		}
+		a.tweet{
+    		color: #757575;
+    		font-size: 50px;
+    		margin: 0% 10%;
+    		text-decoration:none; 
+		}
+		a.tweet:hover{
+			color:#3498DB;
+		}
+		a.tel{
+    		color: #757575;
+    		font-size: 50px;
+    		margin: 0% 9%;
+    		text-decoration:none; 
+		}
+		a.tel:hover{
+			color:#04AA6D;
+		}
+		a.home{
+    		color: #757575;
+    		font-size: 50px;
+    		margin: 0% 9%;
+    		text-decoration:none; 
+		}
+		a.home:hover{
+			color:#795548;
+		}
+		a.email{
+    		color: #757575;
+    		font-size: 45px;
+    		margin: 0% 10%;
+    		text-decoration:none; 
+		}
+		a.email:hover{
+			color:#BB001B;
+		}
+		.rec{
+			width: 3.6%;
+    		padding-top: 1%;
+    		background-color: #757575;
+    		margin-left: 47%;
+    		margin-top: 5%;
+    		margin-bottom: 5%;
+    		animation-name: square;
+    		animation-duration: 4s ;
+    		animation-iteration-count: infinite;
+		}
+		.footer{
+			background-color: #888;
+    		text-align: center;
+    		padding: 2%;
+    		margin-top: 6%;
+    		font-size: 10px;
+    		color: white;
+		}
+		
+		@keyframes square {
+		  0%   {
+		 	transform: rotate(45deg);
+		  }
+		  50%  {
+		  	transform: rotate(135deg);
+		  }
+		  100%  {
+		  	transform: rotate(225deg);
+		  }
+		}
+
+		::-webkit-scrollbar {
+		  width: 6px;
+		}
+		::-webkit-scrollbar-track {
+		  background-color: #f1f1f1; 
+		}
+		::-webkit-scrollbar-thumb {
+		  background-color: #101010; 
+		}
+		::-webkit-scrollbar-thumb:hover {
+		  background-color:#757575 ; 
+		}
+
+
+/* Portrait */
+@media only screen and (max-device-width: 850px) 
+{ 
+
+  	img.wall {
+    	display: none;
+	}	
+	.container {
+    	width: 100%;
+	}
+	.section1 {
+    	height: 100vh;
+	}
+	h1 {
+    	padding-top: 40%;
+    	font-size: 150px;
+	}
+	.subtitle {
+    	font-size: 55px;
+	}
+	li{
+		display: none;
+	}
+	.sub{
+		display: block;
+		font-size: 120px;
+    	color: white;
+	}
+	.overlay{
+		width: 0;
+		display: block;
+		height: 100%;
+  		position: fixed;
+  		z-index: 1;
+  		top: 0;
+  		left: 0;
+  		background-color: rgba(0,0,0, 0.9);
+  		overflow-x: hidden;
+  		transition: 0.3s;
+	}
+	.overlay-content {
+  		position: relative;
+    	top: 30%;
+    	width: 100%;
+    	text-align: center;
+    	margin-top: 30px;
+    	font-size: 200px;
+	}
+
+	.overlay a {
+ 		padding: 50px;
+    	text-decoration: none;
+    	font-size: 100px;
+    	color: white;
+    	display: block;
+    	transition: 0.3s
+	}
+
+	.overlay a:hover, .overlay a:focus {
+  		color: #f1f1f1;
+	}
+
+	.overlay .closebtn {
+  		position: absolute;
+    	top: 20px;
+    	right: 25px;
+    	font-size: 200px;
+    	color: white;
+	}
+	.phone{
+		display: block;
+   		height: 100vh;
+    	filter: grayscale(0.9);
+    	background-attachment: fixed;
+    	background-repeat: no-repeat;
+    	background-position: center;
+    	background-size: cover;
+	}
+	.section2 {
+    	padding-top: 10%;
+	}
+	.ol {
+    	font-size: 45px;
+    	padding: 10% 0%;
+	}
+	table {
+    	width: 100%;
+    	font-size: 40px;
+	}
+	.al {
+    	font-size: 45px;
+    	padding: 10% 0%;
+	}
+	.word{
+		font-size:40px;
+    	width: 88%;
+	}
+	.spreadsheet{
+		font-size:40px;
+    	width: 85%;
+	}
+	.excel{
+		font-size:40px;
+    	width: 87%;
+	}
+
+	.photoshop{
+		font-size:40px;
+    	width: 70%;
+	}
+
+	.web{
+		font-size:40px;
+    	width: 80%;
+	}
+
+	.python{
+		font-size:40px;
+    	width: 56%;
+	}
+	a.fb{
+    	font-size: 100px;
+    	margin: 0% 5%;
+	}
+	a.insta {
+    	font-size: 100px;
+    	margin: 0% 10%;
+	}
+	a.tweet {
+    	font-size: 100px;
+    	margin: 0% 5%;
+	}
+	a.tel{
+    	font-size: 100px;
+    	margin: 0% 4%;
+	}
+	a.home{
+    	font-size: 100px;
+    	margin: 0% 5%;
+	}
+	a.email{
+    	font-size: 100px;
+    	margin: 0% 5%;
+	}
+	.rec {
+    	width: 5%;
+    	padding-top: 3%;
+	}
+}
